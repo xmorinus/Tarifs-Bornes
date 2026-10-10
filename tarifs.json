@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "updated": "2026-10-09",
+  "operators": [
+    {
+      "match": ["e.leclerc", "leclerc"],
+      "label": "E.Leclerc",
+      "asOf": "19/07/2026",
+      "tiers": [{ "upToKw": 22, "eurPerKwh": 0.19 }]
+    },
+    {
+      "match": ["totalenergies", "total ev"],
+      "label": "TotalEnergies (station-service)",
+      "asOf": "05/03/2025",
+      "tiers": [{ "upToKw": 50, "eurPerKwh": 0.52 }, { "upToKw": null, "eurPerKwh": 0.62 }]
+    },
+    {
+      "match": ["ionity"],
+      "label": "Ionity (à l'acte)",
+      "asOf": "03/2026",
+      "tiers": [{ "upToKw": null, "eurPerKwh": 0.59 }]
+    },
+    {
+      "match": ["ouest charge", "ouestcharge", "ouest-charge"],
+      "label": "Ouest Charge (+1 €/session sans abonnement)",
+      "asOf": "30/06/2026",
+      "tiers": [{ "upToKw": 22, "eurPerKwh": 0.35 }, { "upToKw": 50, "eurPerKwh": 0.45 }, { "upToKw": null, "eurPerKwh": 0.55 }]
+    },
+    {
+      "match": ["sydela", "territoire d'énergie loire", "territoire denergie loire"],
+      "label": "Sydela / Loire-Atlantique (+1 €/session sans abonnement)",
+      "asOf": "30/06/2026",
+      "tiers": [{ "upToKw": 22, "eurPerKwh": 0.35 }, { "upToKw": 50, "eurPerKwh": 0.50 }]
+    }
+  ]
+}
