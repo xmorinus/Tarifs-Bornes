@@ -6,7 +6,7 @@
       "match": ["e.leclerc", "leclerc"],
       "label": "E.Leclerc",
       "asOf": "19/07/2026",
-      "tiers": [{ "upToKw": 22, "eurPerKwh": 0.19 }]
+      "tiers": [{ "upToKw": 22, "eurPerKwh": 0.21 }]
     },
     {
       "match": ["totalenergies", "total ev"],
